@@ -48,7 +48,7 @@
                 </div>
                 <div class="form-floating mb-3">
                     <label for="message">Message:</label>
-                    <textarea name="message" id="message" cols="30" rows="10" class="form-control">Um breve texto</textarea>
+                    <textarea name="message" id="message" cols="30" rows="10" class="form-control"></textarea>
                 </div>
 
                 <button class="w-100 btn btn-lg btn-primary" type="submit">Send</button>
