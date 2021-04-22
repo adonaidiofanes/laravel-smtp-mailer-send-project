@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/contact', 'EmailController@index');
+Route::post('/sendmail/send', 'EmailController@send');
